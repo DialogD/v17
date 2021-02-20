@@ -23,6 +23,7 @@ public class CartController {
     @Reference
     private ICartService cartService;
 
+    //正常是Post请求,为了方便浏览器测试。PostMan对cookie清楚有问题
     @GetMapping("add/{productId}/{count}")
     @ResponseBody
     public ResultBean add(@PathVariable("productId") Long productId,
