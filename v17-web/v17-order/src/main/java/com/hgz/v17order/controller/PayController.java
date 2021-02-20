@@ -78,6 +78,7 @@ public class PayController {
     }
 
     //对异步返回结果进行验签
+    //说明：因为此时我们是在内网做实验，所以需要通过内网穿透工具来进行映射
     @RequestMapping("notifyPayResult")
     @ResponseBody
     public void notifyPayResult(HttpServletRequest request,HttpServletResponse response) throws AlipayApiException, IOException {
