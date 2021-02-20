@@ -1,0 +1,18 @@
+dubbo:
+  application:
+    name: web-item
+  registry:
+    protocol: zookeeper
+    address: 114.55.39.2:2181
+  thymeleaf:
+    cache: false
+server:
+  port: 9093
+
+spring:
+  rabbitmq:
+    host: 114.55.39.2
+    port: 5672
+    username: java1907
+    password: 123
+    virtual-host: /java1907

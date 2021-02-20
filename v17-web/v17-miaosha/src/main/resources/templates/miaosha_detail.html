@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <base href="/"/>
+    <title>Title</title>
+</head>
+<body>
+    <input type="hidden" id="seckillId" th:value="${product.id}">
+    商品编号：<span th:text="${product.productId}"></span><br>
+    商品名：<span th:text="${product.productName}"></span><br>
+    原价：<span th:text="${product.productPrice}"></span><br>
+    秒杀价：<span th:text="${product.salePrice}"></span><br>
+    <input type="button" value="立即抢购" id="kill">
+    <br>
+    活动id：<input type="text" id="txseckillId"/><br/>
+    用户id: <input type="text" id="userId"/><br/>
+    <input type="button" id="remind" value="秒杀提醒"/>
+
+
+    <script src="js/jquery-1.4.2.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#kill").click(function () {
+                var seckillId = $("#seckillId").val();
+                $.ajax({
+                    /*用户id不是客户端传递，是服务器获取当前登录状态的用户id*/
+                    url:"miaosha/getPath?userId=1&seckillId="+seckillId,
+                    success:function (result) {
+                        if (result.statusCode == 200){
+                            var path = result.data;
+                        }
+                    }
+                })
+            });
+
+            //发送提醒秒杀
+            $("#remind").click(function () {
+                var txseckillId = $("#txseckillId").val();
+                var userId = $("#userId").val();
+
+                //ajax提交到后台
+                $.ajax({
+                    url:"remind/add/"+txseckillId+"/"+userId,
+                    success:function (result) {
+                        console.log(result);
+                    }
+                })
+            })
+        })
+    </script>
+</body>
+</html>

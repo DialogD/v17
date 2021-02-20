@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="v17-redis" />
+        <module name="v17-product-service" />
+        <module name="v17-entity" />
+        <module name="v17-item" />
+        <module name="v17-miaosha" />
+        <module name="v17-springboot-javamail" />
+        <module name="v17-config" />
+        <module name="v17-search" />
+        <module name="v17-email-api" />
+        <module name="v17-springboot-redis" />
+        <module name="v17-email-service" />
+        <module name="v17-search-service" />
+        <module name="v17-cart-api" />
+        <module name="v17-commons" />
+        <module name="v17-user-api" />
+        <module name="v17-jwt" />
+        <module name="v17-netty" />
+        <module name="v17-register" />
+        <module name="v17-product-api" />
+        <module name="v17-rabbitmq-java" />
+        <module name="v17-search-api" />
+        <module name="v17-sso" />
+        <module name="v17-order" />
+        <module name="v17-center" />
+        <module name="v17-service" />
+        <module name="v17-cart" />
+        <module name="v17-msg" />
+        <module name="v17-cart-service" />
+        <module name="v17-aliyun-sms" />
+        <module name="v17-index" />
+        <module name="v17-sms-service" />
+        <module name="v17-user-service" />
+        <module name="v17-mapper" />
+        <module name="v17-sms-api" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="mianshi" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="v17-cart" options="-parameters" />
+      <module name="v17-cart-service" options="-parameters" />
+      <module name="v17-center" options="-parameters" />
+      <module name="v17-config" options="-parameters" />
+      <module name="v17-email-service" options="-parameters" />
+      <module name="v17-index" options="-parameters" />
+      <module name="v17-item" options="-parameters" />
+      <module name="v17-miaosha" options="-parameters" />
+      <module name="v17-msg" options="-parameters" />
+      <module name="v17-order" options="-parameters" />
+      <module name="v17-product-service" options="-parameters" />
+      <module name="v17-register" options="-parameters" />
+      <module name="v17-search" options="-parameters" />
+      <module name="v17-search-service" options="-parameters" />
+      <module name="v17-sms-service" options="-parameters" />
+      <module name="v17-springboot-javamail" options="-parameters" />
+      <module name="v17-springboot-redis" options="-parameters" />
+      <module name="v17-sso" options="-parameters" />
+      <module name="v17-user-service" options="-parameters" />
+    </option>
+  </component>
+</project>

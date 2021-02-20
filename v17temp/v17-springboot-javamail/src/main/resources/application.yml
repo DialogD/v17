@@ -1,0 +1,15 @@
+spring:
+  mail:
+    host: smtp.163.com
+    username: d1228516160@163.com
+    password: d1228516160
+    default-encoding: utf-8
+  redis:
+    host: 114.55.39.2
+    port: 6379
+    password: java1907
+
+mail:
+  fromAddr: d1228516160@163.com
+server:
+  port: 9988

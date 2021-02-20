@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    cache: false
+  rabbitmq:
+    host: 114.55.39.2
+    port: 5672
+    username: java1907
+    password: 123
+    virtual-host: /java1907
+    publisher-confirms: true
+server:
+  port: 8888

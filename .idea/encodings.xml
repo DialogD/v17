@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/v17-service/v17-cart-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-email-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-email-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-product-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-product-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-search-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-sms-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-sms-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-user-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-service/v17-user-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-cart" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-cart/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-center/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-index" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-index/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-item" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-miaosha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-miaosha/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-msg" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-msg/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-order/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-register" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-register/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-search" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-search/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-sso" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17-web/v17-sso/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17temp/v17-springboot-javamail" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17temp/v17-springboot-javamail/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17temp/v17-springboot-javamail/src/main/resources/application.yml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/v17temp/v17-springboot-redis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/v17temp/v17-springboot-redis/src/main/java" charset="UTF-8" />
+  </component>
+</project>
